@@ -1,0 +1,5 @@
+*.exe
+*.sqlite3
+*.db
+test
+*csv
