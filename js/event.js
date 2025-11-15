@@ -27,3 +27,9 @@ areaBtn.addEventListener("click", () => {
   const area = document.querySelector('input[name="area"]:checked');
   console.log(area.value);
 });
+
+const checkBtn = document.querySelector("#os-btn");
+checkBtn.addEventListener("click", () => {
+  const checkBox = document.querySelectorAll('input[name="os"]:checked');
+  checkBox.forEach(element => console.log(element.value));
+});
