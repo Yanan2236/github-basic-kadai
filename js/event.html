@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>イベント処理</title>
+</head>
+
+<body>
+  <button id="output-btn">文字列の出力</button>
+
+  <button id="add-btn">リストの追加</button>
+  <ul id="parent-list"></ul>
+
+  <form>
+    <input type="text" id="text-box">
+  </form>
+  <button id="count-btn">文字数のカウント</button>
+
+  <form>
+    <input type="radio" name="area" value="tokyo">東京都
+    <input type="radio" name="area" value="aichi">愛知県
+    <input type="radio" name="area" value="osaka">大阪府
+  </form>
+  <button id="area-btn">値の取得</button>
+
+<form name="osForm">
+  <fieldset>
+    <legend>利用したことのあるOSを選択してください</legend>
+
+    <label><input type="checkbox" name="os" value="windows">Windows</label>
+    <label><input type="checkbox" name="os" value="macos">macOS</label>
+    <label><input type="checkbox" name="os" value="linux">Linux</label>
+    <label><input type="checkbox" name="os" value="ios">iOS</label>
+    <label><input type="checkbox" name="os" value="android">Android</label>
+  </fieldset>
+
+  <button id="os-btn" type="button">値の取得</button>
+</form>
+
+  <script type="module" src="./event.js"></script>
+</body>
+
+</html>

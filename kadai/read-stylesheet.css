@@ -1,0 +1,12 @@
+#parent > p {
+    color: red;
+    line-height: 1.6;
+    border: dashed 1px black;
+    background-color: beige;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    text-align: center
+}
+
+.text-bold {
+    text-decoration: line-through
+}
