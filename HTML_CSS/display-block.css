@@ -1,0 +1,14 @@
+#first-paragraph {
+  width: 200px;
+  padding: 100px;
+  background-color: yellow;
+}
+#second-paragraph {
+  width: 400px;
+  height: 40px;
+  margin: 100px;
+  background-color: orange;
+}
+#third-paragraph {
+  background-color: pink;
+}
