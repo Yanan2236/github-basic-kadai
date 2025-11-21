@@ -1,8 +1,10 @@
 from django.shortcuts import render
-from django.views.generic import ListView, CreateView, UpdateView, DeleteView, DetailView
-from .models import Product
 from django.urls import reverse_lazy
+from django.views.generic import CreateView, DeleteView, DetailView, ListView, UpdateView
+
 from .forms import ProductForm
+from .models import Product
+
 
 class ProductListView(ListView):
     model = Product
