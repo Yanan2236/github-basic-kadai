@@ -1,0 +1,18 @@
+.body {
+    width: 500px;
+}
+
+p {
+  background-color: yellow;
+}
+#first-span {
+    margin: 10px;
+    padding: 0px 100px;
+  background-color: lightblue;
+}
+#second-span {
+  background-color: lightgreen;
+}
+#third-span {
+  background-color: lightgray;
+}

@@ -1,0 +1,8 @@
+h1::before {
+    content: "◆";
+    color: orange;
+}
+h1::after {
+    content: "■";
+    color: pink;
+}
